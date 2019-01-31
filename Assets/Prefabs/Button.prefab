@@ -154,10 +154,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cacf9fbfb7d21364c9ec155ed31d550e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonComponent: {fileID: 0}
-  nameLabel: {fileID: 0}
-  iconImage: {fileID: 0}
-  priceText: {fileID: 0}
+  buttonComponent: {fileID: 2503129377040779415}
+  nameLabel: {fileID: 2503129378351091325}
+  iconImage: {fileID: 2503129377999919098}
+  priceText: {fileID: 2503129377779479997}
 --- !u!1 &2503129377779479999
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 2503129378351091322}
   - component: {fileID: 2503129378351091325}
   m_Layer: 5
-  m_Name: Item  Text
+  m_Name: Item Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

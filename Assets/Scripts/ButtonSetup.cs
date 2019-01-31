@@ -8,9 +8,9 @@ public class ButtonSetup : MonoBehaviour
 {
 
     public Button buttonComponent;
-    public TextMeshPro nameLabel;
+    public TMP_Text nameLabel;
     public Image iconImage;
-    public TextMeshPro priceText;
+    public TMP_Text priceText;
 
     void Start()
     {
