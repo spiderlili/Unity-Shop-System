@@ -2,14 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ButtonSetup : MonoBehaviour
 {
 
     public Button buttonComponent;
-    public Text nameLabel;
+    public TextMeshPro nameLabel;
     public Image iconImage;
-    public Text priceText;
+    public TextMeshPro priceText;
 
     void Start()
     {
