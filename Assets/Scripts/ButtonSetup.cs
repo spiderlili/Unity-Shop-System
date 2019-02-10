@@ -12,14 +12,16 @@ public class ButtonSetup : MonoBehaviour
     public Image iconImage;
     public TMP_Text priceText;
 
-    void Start()
+    private Item item;
+    private ShopScrollList scrollList;
+
+    public void Setup(Item currentItem, ShopScrollList currScrollList)
     {
-
-    }
-
-    public void Setup()
-    {
-
+        item = currentItem;
+        nameLabel.text = item.itemName;
+        priceText.text = item.price.ToString();
+        iconImage.sprite = item.icon;
+        scrollList = currScrollList; //button knows what list it currently belongs to
 
     }
 
