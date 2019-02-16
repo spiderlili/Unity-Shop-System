@@ -47,7 +47,7 @@ public class ButtonObjectPool : MonoBehaviour
         if (pooledObject != null && pooledObject.pool == this)
         {
             // make the instance a child of this and disable it
-            toReturn.transform.SetParent(transform);
+            toReturn.transform.SetParent(transform, false);
             toReturn.SetActive(false);
 
             // add the instance to the collection of inactive instances

@@ -55,7 +55,7 @@ public class ShopScrollList : MonoBehaviour
             GameObject newButton = buttonObjectPool.GetObject();
 
             //parent it to the panel w the vertical layout group on it = new button laid out correctly
-            newButton.transform.SetParent(shopContentPanel);
+            newButton.transform.SetParent(shopContentPanel, false);
 
             //tell the button to set itself up
             ButtonSetup sampleButton = newButton.GetComponent<ButtonSetup>();

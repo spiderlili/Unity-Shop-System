@@ -12,7 +12,7 @@ public class ButtonSetup : MonoBehaviour
     public Image iconImage;
     public TMP_Text priceText;
 
-    private Item item;
+   [SerializeField] private Item item;
     private ShopScrollList scrollList;
 
     private void Start()
