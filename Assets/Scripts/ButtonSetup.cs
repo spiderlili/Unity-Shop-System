@@ -15,6 +15,11 @@ public class ButtonSetup : MonoBehaviour
     private Item item;
     private ShopScrollList scrollList;
 
+    private void Start()
+    {
+        buttonComponent.onClick.AddListener(HandleClick);
+    }
+
     public void Setup(Item currentItem, ShopScrollList currScrollList)
     {
         item = currentItem;
@@ -27,6 +32,6 @@ public class ButtonSetup : MonoBehaviour
 
     public void HandleClick()
     {
-
+        scrollList.TryTransferItemToOtherShop(item); //scrollist needed for button to call transfer item func
     }
 }
